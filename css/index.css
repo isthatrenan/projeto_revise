@@ -1,0 +1,97 @@
+main{
+    font-family: 'Raleway', sans-serif;
+    width: 940px;
+	margin: 0 auto;
+}
+
+.cabecalho {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px #34B6A6;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 40PX;
+}
+
+.logo1 {
+	width: 50px;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.titulo {
+	font-size: 38px;
+    font-weight: bold;
+    vertical-align: center;
+}
+
+.slogan {
+	padding-top: 15px;
+}
+
+.menu-nav {
+	margin: auto 15px auto auto;
+}
+.itens-menu {
+	display: inline-flex;
+}
+
+.itens-menu li{
+	padding: 15px 10px 0;
+}
+
+.itens-menu li a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.container{
+	padding: 20px;
+}
+
+.sub-materia, .sub-aula{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.form-aula, .form-curso {
+	margin-bottom: 1rem;
+}
+
+.form-in {
+	display: block;
+    width: 60%;
+    height: 20px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin: 15px;
+}
+
+.grupo label{
+    padding: 20px;
+}
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #34B6A6;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

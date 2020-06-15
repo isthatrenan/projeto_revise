@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Revisa.com</title>
+		<<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<body>
+		<!--CABEÇALHO-->
+		<header class="cabecalho">
+			<img src="logo.png" class="logo1">
+			<h1 class="titulo">Revisa.com</h1>
+			<p class="slogan">Gerencie suas revisões</p>
+			<nav class="menu-nav">
+				<ul class="itens-menu">
+					<li class="item-nav"><a href="index.html" target="_blank">Início</a></li>
+					<li class="item-nav"><a href="cursos.html" target="_blank">Seus Cursos</a></li>
+					<li class="item-nav"><a href="revisoes.html" target="_blank">Suas Revisões</a></li>
+					<li class="item-nav"><a href="perfil.html" target="_blank">Seu Perfil</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<!--FORMULÁRIO PARA ADICIONAR MATÉRIA-->
+			<section class="container">
+
+				<h2 class="sub-materia">Adicione uma matéria ou curso</h2>
+
+				<form class="form-curso">
+					<div class="grupo">
+						<label for="curso">Curso:</label>
+						<input type="text" class="form-in" name="curso" id="curso" placeholder="digite o curso ou a matéria">
+					</div>
+					<div class="grupo">
+						<label for="num-aula">Número de aulas:</label>
+						<input type="text" class="form-in" name="num-aula" id="num-aula" placeholder="digite a quantidade de aulas do curso">
+					</div>
+				</form>
+
+			</section>
+
+			<!--FORMULÁRIO PARA ADICIONAR CICLO-->
+			<section class="container">
+
+				<h2 class="sub-aula">Adicione uma aula concluída</h2>
+
+				<form class="form-aula">
+					<div class="grupo">
+						<label for="aula">Aula:</label>
+						<input type="?" class="form-in" name="aula" id="aula" placeholder="digite o número da aula">
+					</div class="grupo">
+					<div class="grupo">
+						<label for="titulo-aula">Título:</label>
+						<input type="text" class="form-in" name="titulo-aula" id="titulo-aula" placeholder="digite o título da aula">
+					</div>
+					<div class="grupo">
+						<label for="metodo">Método utilizado:</label>
+						<input type="text" class="form-in" name="metodo" id="metodo" placeholder="audio/visual/escrito">
+					</div class="grupo">
+					<div class="grupo">
+						<label for="concluido">Data:</label>
+						<input type="text" class="form-in" name="concluido" id="concluido" placeholder="digite a data de conclusão">
+					</div>
+				</form>
+
+			</section>
+		</main>
+		<footer class="rodape">
+			<p>&copy CopyRight - Revise.com</p>
+			<p>Pelotas/RS -Tel: +55 53 981280290</p>
+		</footer>
+
+	</body>
+</html>
